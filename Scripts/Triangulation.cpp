@@ -1,3 +1,9 @@
+// Date: 2013
+// Created by: Kevin Shahnazari
+
+#ifndef TRIANGULATION_H
+#define TRIANGULATION_H
+
 #include <cmath>
 #include "Triangulation.h"
 
@@ -47,3 +53,5 @@ void Triangulation::calculatepos(int x1, int y1, int x2, int y2, int x3, int y3,
             }
         }
 }
+
+#endif /* TRIANGULATION_H_H */

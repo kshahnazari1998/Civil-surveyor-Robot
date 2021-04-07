@@ -1,3 +1,6 @@
+// Date: 2013
+// Created by: Kevin Shahnazari
+
 #include "Position.h"
 
 Position::Position()

@@ -1,3 +1,6 @@
+// Date: 2013
+// Created by: Kevin Shahnazari
+
 #include "RobotPlace.h"
 
 RobotPlace::RobotPlace(int x, int y, double degree)

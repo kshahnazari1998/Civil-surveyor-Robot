@@ -1,4 +1,7 @@
 
+// Date: 2013
+// Created by: Kevin Shahnazari
+
 #include "Robatmovementmanager.h"
 
 void Robatmovementmanager::moveForward(double dis)

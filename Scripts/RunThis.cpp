@@ -1,4 +1,7 @@
 
+// Date: 2013
+// Created by: Kevin Shahnazari
+
 #include <iostream>
 #include <fstream>
 #include <string>

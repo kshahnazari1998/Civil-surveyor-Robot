@@ -1,3 +1,9 @@
+// Date: 2013
+// Created by: Kevin Shahnazari
+
+#ifndef ROBATMOVEMENTMANAGER_H
+#define ROBATMOVEMENTMANAGER_H
+
 #include "ContactWithRobot.h"
 #include "MachineVision.h"
 
@@ -18,3 +24,5 @@ public:
     void TurnonThebrush();
     void Turnoffthebrush();
 };
+
+#endif /* ROBATMOVEMENTMANAGER_H */

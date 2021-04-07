@@ -1,6 +1,8 @@
 // Date: 2013
 // Created by: Kevin Shahnazari
 
+#ifndef CONTACTWITHROBOT_H
+#define CONTACTWITHROBOT_H
 class ContactWithRobot
 {
 private:
@@ -57,3 +59,5 @@ public:
     void TurnOnBrush();
     void TurnoffBrush();
 };
+
+#endif /* CONTACTWITHROBOT_H */

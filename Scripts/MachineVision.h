@@ -1,3 +1,9 @@
+// Date: 2013
+// Created by: Kevin Shahnazari
+
+#ifndef MACHINEVISION_H
+#define MACHINEVISION_H
+
 #include <cv.h>
 
 class MachineVision
@@ -24,3 +30,5 @@ public:
     int takeimage();
     int DoTheJob();
 };
+
+#endif /* MACHINEVISION_H */

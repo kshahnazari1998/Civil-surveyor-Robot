@@ -1,3 +1,9 @@
+// Date: 2013
+// Created by: Kevin Shahnazari
+
+#ifndef ROBATPLACE_H
+#define ROBATPLACE_H
+
 #include "Robatmovementmanager.h"
 
 class RobotPlace
@@ -12,3 +18,5 @@ public:
     double WhatDegree(double yourd, double placed);
     void GotoTheplace(int x, int y);
 };
+
+#endif /* ROBATPLACE_H */

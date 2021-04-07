@@ -1,3 +1,9 @@
+// Date: 2013
+// Created by: Kevin Shahnazari
+
+#ifndef POSITION_H
+#define POSITION_H
+
 #include "MachineVision.h"
 #include "Triangulation.h"
 #include "Laser.h"
@@ -16,3 +22,5 @@ public:
     Position();
     void FindMyposition();
 };
+
+#endif /* POSITION_H */
