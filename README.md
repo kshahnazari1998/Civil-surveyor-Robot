@@ -23,12 +23,21 @@ The process was made up of few different parts
 
 Each of these parts was a huge challenge, especially the 1st and 2nd steps, where a lot of innovations were needed. Therefore each piece will be broken down.
 
-## Calculating the distance to each benchmark: 
+### Calculating the distance to each benchmark: 
 Different methods could be used to calculate distance. Using radio waves is one of those methods. But the problem is that low-cost equipment doesn't have the accuracy needed for the project. The ones with the necessary accuracy had a cost of over 50000$'s which was not affordable and also increased the cost of making the Robot.
 To address this, a new method was used. Some Barcode signs were installed on the benchmarks. With a camera and laser, we detected those benchmarks with a camera and then used a laser to distance the benchmark. The code for this section is in Laser and Machine Vision header files.
 
-## Calculating position with triangulation
+### Calculating position with triangulation
 We could use the distances to the benchmarks to calculate the position. This is the same method GPS systems used, but we would do it in 2 dimensions this time. We can't use some exact formulas that give us the position because the distances we have contain some errors; therefore, we iterate through all the possible positions that the Robot could have and choose the one that has the least error. The code for this section is in the triangulation header file.
 
 ### Rest of the parts.
 The rest of the code is to interact with the Robot, both reading from the encoders and turning the motors on and off, calculate the necessary moves to go to the positions and checking the positions which could be seen in the rest of the header files.
+---
+## Video Links of the robot working
+---
+## Extra material
+
+At the root of the project, a photos folder includes photos of the Robot in different stages and angles. Also, a PDF of the robot logic is added to the root. 
+---
+## Contact Me
+If you have any questions about the project or want to discuss any subject, you could add me on LinkedIn or at kshahnazari@gmail.com.
