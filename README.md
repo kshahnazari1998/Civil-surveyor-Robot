@@ -1,5 +1,9 @@
 # Civil Engineering Surveyor Robot (1st Place Mechatronic Project in Tehran State) - 2013
 
+<p align="center">
+<img src="/Robot_pictures/Robot.png" width="450" height="300" alt="robot image">
+</p>
+
 This Repo Showcases the Algorithm used for the Civil Engineering Robot. 
 
 ### Note: Because the Robot is needed to reproduce the things it did, the code is only added to show the unique algorithms used for the Robot. The code has been separated into different header files for readability but has not been tested after the separation. I wrote the code when I was 15 years old, so the documentation isn't top-notch. Feel free to contact me if you had questions about any parts of the code.
@@ -25,13 +29,17 @@ Each of these parts was a huge challenge, especially the 1st and 2nd steps, wher
 
 ### Calculating the distance to each benchmark: 
 Different methods could be used to calculate distance. Using radio waves is one of those methods. But the problem is that low-cost equipment doesn't have the accuracy needed for the project. The ones with the necessary accuracy had a cost of over 50000$'s which was not affordable and also increased the cost of making the Robot.
-To address this, a new method was used. Some Barcode signs were installed on the benchmarks. With a camera and laser, we detected those benchmarks with a camera and then used a laser to distance the benchmark. The code for this section is in Laser and Machine Vision header files.
+To address this, a new method was used. Some Barcode signs were installed on the benchmarks. With a camera and laser, we detected those benchmarks with a camera and then used a laser to distance the benchmark. The code for this section is in Laser and Machine Vision header files. A picture of an example benchmark is shown below:
+
+<p align="center">
+<img src="/Robot_pictures/Benchmark.JPG" width="450" height="550" alt="benchmark picture">
+</p>
 
 ### Calculating position with triangulation
 We could use the distances to the benchmarks to calculate the position. This is the same method GPS systems used, but we would do it in 2 dimensions this time. We can't use some exact formulas that give us the position because the distances we have contain some errors; therefore, we iterate through all the possible positions that the Robot could have and choose the one that has the least error. The code for this section is in the triangulation header file.
 
 ### Rest of the parts.
-The rest of the code is to interact with the Robot, both reading from the encoders and turning the motors on and off, calculate the necessary moves to go to the positions and checking the positions which could be seen in the rest of the header files.
+The rest of the code is to interact with the Robot, both reading from the encoders and turning the motors on and off, calculate the necessary moves to go to the positions and checking the positions which could be seen in the rest of the header files. A interface of working with the robot is shown below:
 ---
 ## Video Links of the robot working
 ---
