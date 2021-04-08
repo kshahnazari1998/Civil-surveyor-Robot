@@ -57,6 +57,8 @@ Unfinished version of the robot being tested: https://www.youtube.com/watch?v=Te
 ## Extra material
 
 At the root of the project, a photos folder includes photos of the Robot in different stages and angles. Also, a PDF of the robot logic is added to the root. 
+
 ---
 ## Contact Me
+
 If you have any questions about the project or want to discuss any subject, you could add me on LinkedIn or at kshahnazari@gmail.com.
