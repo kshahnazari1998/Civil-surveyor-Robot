@@ -40,9 +40,15 @@ We could use the distances to the benchmarks to calculate the position. This is 
 
 ### Rest of the parts.
 The rest of the code is to interact with the Robot, both reading from the encoders and turning the motors on and off, calculate the necessary moves to go to the positions and checking the positions which could be seen in the rest of the header files. A interface of working with the robot is shown below:
+
+<p align="center">
+<img src="/Robot_pictures/Software.jpg"  width="450" height="300"  alt="benchmark picture">
+</p>
+
 ---
 ## Video Links of the robot working
 ---
+
 ## Extra material
 
 At the root of the project, a photos folder includes photos of the Robot in different stages and angles. Also, a PDF of the robot logic is added to the root. 
