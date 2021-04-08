@@ -47,6 +47,10 @@ The rest of the code is to interact with the Robot, both reading from the encode
 
 ---
 ## Video Links of the robot working
+
+Final Version of the robot: https://www.youtube.com/watch?v=UT_9CPfJW9k
+
+Unfinished version of the robot being tested: https://www.youtube.com/watch?v=TeilLNC8A9o
 ---
 
 ## Extra material
