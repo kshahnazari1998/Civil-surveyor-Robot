@@ -8,6 +8,13 @@ This Repo Showcases the Algorithm used for the Civil Engineering Robot.
 
 ### Note: Because the Robot is needed to reproduce the things it did, the code is only added to show the unique algorithms used for the Robot. The code has been separated into different header files for readability but has not been tested after the separation. I wrote the code when I was 15 years old, so the documentation isn't top-notch. Feel free to contact me if you had questions about any parts of the code.
 ---
+## Video Links of the robot working
+
+Final Version of the robot: https://www.youtube.com/watch?v=UT_9CPfJW9k
+
+Unfinished version of the robot being tested: https://www.youtube.com/watch?v=TeilLNC8A9o
+
+---
 ## The Project
 
 The video below better illustrates the project, and I highly recommend you watch the video. The Readme will only give a summary of the project.
@@ -44,13 +51,6 @@ The rest of the code is to interact with the Robot, both reading from the encode
 <p align="center">
 <img src="/Robot_pictures/Software.jpg"  width="450" height="300"  alt="benchmark picture">
 </p>
-
----
-## Video Links of the robot working
-
-Final Version of the robot: https://www.youtube.com/watch?v=UT_9CPfJW9k
-
-Unfinished version of the robot being tested: https://www.youtube.com/watch?v=TeilLNC8A9o
 
 ---
 
